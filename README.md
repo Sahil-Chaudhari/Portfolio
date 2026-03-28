@@ -1,4 +1,4 @@
-# 💻 Vandan Hood - Portfolio Terminal
+# 💻 Sahil Chaudhari - Portfolio Terminal
 
 > A modern, interactive terminal-themed portfolio website built with React and Vite.
 
@@ -23,7 +23,6 @@
 - **Experience** - Work history and achievements
 - **Projects** - Showcase of your best work
 - **Skills** - Technical expertise
-- **Achievements** - Accomplishments and milestones
 - **Education** - Academic background
 - **Contact** - Get in touch information
 
@@ -36,7 +35,6 @@
 | `experience` | View work experience | `exp` |
 | `projects` | View projects | `proj` |
 | `skills` | View technical skills | - |
-| `achievements` | View achievements | `ach` |
 | `education` | View education details | `edu` |
 | `contact` | Show contact information | `email` |
 | `github` | Open GitHub profile | - |
@@ -104,7 +102,6 @@ Edit `src/data/portfolioData.js` to customize:
 - Work experience
 - Projects
 - Skills
-- Achievements
 - Education
 
 ### Styling
@@ -134,7 +131,7 @@ The terminal theme is fully customizable via `src/App.css`:
 ## 📁 Project Structure
 
 ```
-vandan-portfolio/
+sahil-portfolio/
 ├── public/              # Static assets
 ├── src/
 │   ├── assets/         # Images and other assets
@@ -190,10 +187,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-**Vandan Hood**
+**Sahil Chaudhari**
 
-- Software Engineer | Backend Developer
-- 📧 Email: hoodvandan@gmail.com
+- Software Engineer | Frontend Developer
+- 📧 Email: chaudharisahil475@gmail.com
 - 📍 Location: Pune, Maharashtra, India
 
 ---
@@ -212,7 +209,7 @@ Feel free to reach out if you have any questions or suggestions!
 
 - 💼 [LinkedIn](https://www.linkedin.com)
 - 💻 [GitHub](https://github.com)
-- 📧 Email: hoodvandan@gmail.com
+- 📧 Email: chaudharisahil475@gmail.com
 
 ---
 
@@ -220,6 +217,6 @@ Feel free to reach out if you have any questions or suggestions!
 
 **⭐ Star this repo if you found it helpful! ⭐**
 
-Made with ❤️ by Vandan Hood
+Made with ❤️ by Sahil Chaudhari
 
 </div>
