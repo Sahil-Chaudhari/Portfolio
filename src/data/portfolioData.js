@@ -153,6 +153,19 @@ ${portfolioData.projects[1].description.map(d => `    • ${d}`).join('\n')}
 
 📝 Note: For more projects, visit my GitHub profile using the "github" command.
 `,
+'skills.txt': `╔════════════════════════════════════════════════════════════╗
+║                          SKILLS                            ║
+╚════════════════════════════════════════════════════════════╝
+
+Technical Skills:
+  ${portfolioData.skills.technical.join(', ')}
+
+Networking & Security:
+  ${portfolioData.skills.networking.join(', ')}
+
+Tools & Technologies:
+  ${portfolioData.skills.tools.join(', ')}`
+,
 
 'education.txt': `╔════════════════════════════════════════════════════════════╗
 ║                        EDUCATION                           ║
