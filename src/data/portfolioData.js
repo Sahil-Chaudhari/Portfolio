@@ -1,10 +1,10 @@
 export const portfolioData = {
   name: 'SAHIL CHAUDHARI',
   role: 'Frontend Developer',
-  location: 'Pune, Maharashtra',
+  location: 'Pune, India',
   phone: '+91 9146016431',
   email: 'chaudharisahil475@gmail.com',
-  bio: 'Frontend Developer with 1.8+ years of experience in developing web applications using React, JavaScript and Django. Intended to learn, innovate, and contribute effectively while working in growth-focused environment.',
+  bio: 'Frontend Developer with 2+ years of experience building scalable web applications using React.js, JavaScript and Django. Proven ability to integrate REST APIs, and deliver responsive, user-friendly interfaces. Passionate about clean code, performance optimization and continuous learning.',
   experience: [
     {
       company: '3PS Media India Pvt. Ltd.',
@@ -12,10 +12,10 @@ export const portfolioData = {
       period: 'July 2025 - Present',
       location: 'On-site',
       achievements: [
-        'Developing the Gen4 version of Knowdl - an online learning platform, using React, JavaScript, Tailwind CSS.',
-        'Built the module creation interface, user dashboard, and search functionality where educators design and publish custom learning content.',
+        'Developed the Gen4 version of Knowdl - an online authoring platform, migrating frontend from Vanila.js (Gen3) to React.js, reducing codebase complexity by ~40% and improving maintainability.',
+        'Built key features like the module creation interface, user dashboard, and search functionality allowing educators to create and publish their own learning content smoothly.',
         'Worked with Python/Django backend team to integrate APIs and ensure smooth data flow between frontend and backend.',
-        'Fixed bugs, improved page load times and made platform responsive across desktop and mobile devices.']
+        'Fixed bugs, improved page load time by 35% through lazy loading; ensured full responsiveness across 5+ device break-points.']
     },
     {
       company: 'Impact Digitech Solutions Pvt. Ltd.',
@@ -23,12 +23,24 @@ export const portfolioData = {
       period: 'May 2024 - June 2025',
       location: 'On-site',
       achievements: [
-        'Developed and maintained dynamic web applications using React, Node.js, Express.js, and MongoDB.',
-        'Collaborated with the team to build user-friendly features and improve performance across client projects.'
+        'Built and deployed web applications using React.js, Node.js, Express.js, and MongoDB, serving 1K+ end users.',
+        'Reduced API response time by 20% through query optimization and implemented reusable React component library used across 3 projects.'
       ]
     }
   ],
   projects: [
+    {
+      name: 'Serverless AI Image Processing Pipeline ',
+      tech: 'React.js, Tailwind CSS, Python, AWS, AI ',
+      github: true,
+      description: [
+        'Developed a fully serverless AI-powered image processing application using React.js, AWS Lambda, Amazon S3, API Gateway, DynamoDB, and Docker.',
+        'Built secure direct-to-S3 image upload workflow using presigned URLs and implemented event-driven image processing with AWS Lambda triggers.',
+        'Integrated AI-based background removal using rembg and implemented image compression, resizing, and format conversion using Pillow.',
+        'Designed a responsive frontend with drag-and-drop upload, dynamic quality control, upload progress tracking, and dark/light theme using React, Vite, and Tailwind CSS.',
+        'Deployed the frontend on Vercel and containerized backend AI processing services using Docker and Amazon ECR for scalable cloud-native deployment.'
+      ]
+    },
     {
       name: 'Multiple Disease Prediction System',
       tech: 'Pyton, Streamlit, Machine Learning',
@@ -49,9 +61,9 @@ export const portfolioData = {
     }
   ],
   skills: {
-    technical: ['JavaScript', 'ReactJs', 'TailwindCSS', 'CSS', 'NodeJs', 'ExpressJs', 'C++', 'Python', 'Github',  'AWS', 'MongoDB',  'MySql', 'Machine Learning', 'HTML', 'RestAPI'],
+    technical: ['JavaScript', 'ReactJs', 'TailwindCSS', 'CSS', 'NodeJs', 'ExpressJs', 'C++', 'Python', 'Github',  'AWS', 'MongoDB',  'MySql', 'Machine Learning', 'HTML', 'RestAPI', 'Streamlit', 'Scikit-Learn', 'Pandas', 'Numpy', 'TensorFlow', 'Pillow', 'AWS (EC2, Lambda, S3, RDS, DynamoDB)', 'Docker', 'Vercel'],
     networking: ['TCP/IP', 'HTTP', 'HTTP/2', 'HTTPS', 'SSL', 'DNS', 'DSPM'],
-    tools: ['Postman', 'Git']
+    tools: ['Postman', 'Git','Github']
   },
   education: {
     institution: 'Vishwakarma Institute of Information Technology, Pune',
@@ -137,21 +149,12 @@ ${portfolioData.projects[0].description.map(d => `    • ${d}`).join('\n')}
     GitHub: Available
     
     Description:
-${portfolioData.projects[1].description.map(d => `    • ${d}`).join('\n')}`,
-    'skills.txt': `╔════════════════════════════════════════════════════════════╗
-║                          SKILLS                            ║
-╚════════════════════════════════════════════════════════════╝
+${portfolioData.projects[1].description.map(d => `    • ${d}`).join('\n')}
 
-Technical Skills:
-  ${portfolioData.skills.technical.join(', ')}
+📝 Note: For more projects, visit my GitHub profile using the "github" command.
+`,
 
-Networking & Security:
-  ${portfolioData.skills.networking.join(', ')}
-
-Tools & Technologies:
-  ${portfolioData.skills.tools.join(', ')}`,
-
-    'education.txt': `╔════════════════════════════════════════════════════════════╗
+'education.txt': `╔════════════════════════════════════════════════════════════╗
 ║                        EDUCATION                           ║
 ╚════════════════════════════════════════════════════════════╝
 
