@@ -1,10 +1,10 @@
 export const portfolioData = {
   name: 'SAHIL CHAUDHARI',
-  role: 'Frontend Developer',
+  role: 'Software Engineer',
   location: 'Pune, India',
   phone: '+91 9146016431',
   email: 'chaudharisahil475@gmail.com',
-  bio: 'Frontend Developer with 2+ years of experience building scalable web applications using React.js, JavaScript and Django. Proven ability to integrate REST APIs, and deliver responsive, user-friendly interfaces. Passionate about clean code, performance optimization and continuous learning.',
+  bio: 'Software Engineer with 2+ years of experience of building scalable web applications and AI-driven automation solutions using React.js, Python, and modern AI tools. Passionate about applying AI and automation pragmatically to solve real operational problems and drive measurable efficiency gains.',
   experience: [
     {
       company: '3PS Media India Pvt. Ltd.',
@@ -42,12 +42,13 @@ export const portfolioData = {
       ]
     },
     {
-      name: 'Multiple Disease Prediction System',
+      name: 'HealthAI – Smart Healthcare Prediction & Analytics Platform',
       tech: 'Pyton, Streamlit, Machine Learning',
       github: true,
       description: [
-        'Developed web application using Python and Streamlit to predict multiple diseases based on user inputs and machine learning models.',
-        'Implemented machine learning algorithms to analyze input data and forecast potential diseases.'
+      'Extended the research project “Multiple Disease Prediction using Machine Learning Algorithms” (ICCUBEA 2023) into an AI-powered healthcare platform for predicting Diabetes, Heart Disease, and Parkinson’s Disease using Machine Learning models with prediction accuracy of up to 86%, providing personalized health recommendations.',
+      'Enhanced platform by integrating Explainable AI (SHAP), patient profiling, BMI-based analysis, risk-factor evaluation, interactive visualizations, and automated PDF medical report generation using ReportLab to improve prediction transparency and clinical usability.',
+      'Implemented a Gemini AI-powered Healthcare Assistant to provide conversational health guidance and personalized recommendations through an interactive Streamlit application deployed on the cloud.'
       ]
     },
     {
@@ -61,7 +62,7 @@ export const portfolioData = {
     }
   ],
   skills: {
-    technical: ['JavaScript', 'ReactJs', 'TailwindCSS', 'CSS', 'NodeJs', 'ExpressJs', 'C++', 'Python', 'Github',  'AWS', 'MongoDB',  'MySql', 'Machine Learning', 'HTML', 'RestAPI', 'Streamlit', 'Scikit-Learn', 'Pandas', 'Numpy', 'TensorFlow', 'Pillow', 'AWS (EC2, Lambda, S3, RDS, DynamoDB)', 'Docker', 'Vercel'],
+    technical: ['JavaScript', 'TypeScript','ReactJs', 'TailwindCSS', 'CSS', 'NodeJs', 'ExpressJs', 'C++', 'Python', 'Github',  'AWS', 'MongoDB',  'MySql', 'Machine Learning', 'HTML', 'RestAPI', 'Streamlit', 'Scikit-Learn', 'Pandas', 'Numpy', 'TensorFlow', 'Pillow', 'AWS (EC2, Lambda, S3, RDS, DynamoDB)', 'Docker', 'Vercel'],
     networking: ['TCP/IP', 'HTTP', 'HTTP/2', 'HTTPS', 'SSL', 'DNS', 'DSPM'],
     tools: ['Postman', 'Git','Github']
   },
