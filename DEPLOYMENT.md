@@ -16,7 +16,7 @@
 
 3. **Deploy from project directory**:
    ```bash
-   cd vandan-portfolio
+   cd sahil-portfolio
    vercel
    ```
 
@@ -24,7 +24,7 @@
    - Set up and deploy? **Yes**
    - Which scope? (select your account)
    - Link to existing project? **No** (for first deployment)
-   - Project name: **vandan-portfolio** (or your choice)
+   - Project name: **sahil-portfolio** (or your choice)
    - Directory: **./** (current directory)
    - Override settings? **No**
 

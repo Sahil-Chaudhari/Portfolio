@@ -116,6 +116,15 @@ function App() {
           content: commands.education
         })
         break
+      
+
+      case 'certifications':
+      case 'certs':
+        newHistory.push({
+          type: 'output',
+          content: commands.certifications
+        })
+        break
 
       case 'contact':
       case 'email':

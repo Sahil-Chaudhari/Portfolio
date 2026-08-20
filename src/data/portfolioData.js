@@ -72,7 +72,15 @@ export const portfolioData = {
     cgpa: '8.76',
     period: 'August 2020 - May 2024',
     location: 'Maharashtra, India'
-  }
+  },
+  certifications: [
+    {
+      name: 'AWS Certified AI Practitioner',
+      issuer: 'Amazon Web Services (AWS)',
+      date: 'August 2026',
+      validUntil: 'August 2029'
+    }
+  ]
 }
 
 export const commands = {
@@ -87,6 +95,7 @@ export const commands = {
     '  projects | proj   - View my projects',
     '  skills            - View technical skills',
     '  education | edu   - View education details',
+    '  certifications | certs - View certifications',
     '  contact | email   - Show contact information',
     '  github            - Open GitHub profile',
     '  linkedin          - Open LinkedIn profile',
@@ -177,6 +186,15 @@ Degree: ${portfolioData.education.degree}
 CGPA: ${portfolioData.education.cgpa}
 Period: ${portfolioData.education.period}
 Location: ${portfolioData.education.location}`,
+
+  'certifications.txt': `╔════════════════════════════════════════════════════════════╗
+║                     CERTIFICATIONS                         ║
+╚════════════════════════════════════════════════════════════╝
+
+[1] ${portfolioData.certifications[0].name}
+    Issuer: ${portfolioData.certifications[0].issuer}
+    Earned: ${portfolioData.certifications[0].date}
+    Valid Until: ${portfolioData.certifications[0].validUntil}`,
     'contact.txt': `╔════════════════════════════════════════════════════════════╗
 ║                       CONTACT INFO                         ║
 ╚════════════════════════════════════════════════════════════╝
@@ -212,6 +230,7 @@ Use the following commands to explore:
   • projects    - Projects
   • skills      - Technical skills
   • education   - Education
+  • certifications - Certifications
   • contact     - Contact information`
 }
 
@@ -220,4 +239,5 @@ commands.experience = commands.cat['experience.txt']
 commands.projects = commands.cat['projects.txt']
 commands.skills = commands.cat['skills.txt']
 commands.education = commands.cat['education.txt']
+commands.certifications = commands.cat['certifications.txt']
 
